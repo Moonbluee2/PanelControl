@@ -5,7 +5,7 @@ import { TicketsComponent } from './pages/tickets/tickets.component';
 import { ArtistasComponent } from './pages/artistas/artistas.component';
 
 export const appRoutes: Routes = [
-  { path: '', component: DashboardComponent },
+  { path: 'home', component: DashboardComponent },
   { path: 'eventos', component: EventosComponent },
   { path: 'tickets', component: TicketsComponent },
   { path: 'artistas', component: ArtistasComponent },
